@@ -8,7 +8,7 @@ import serviceImg3 from '../../../assets/service3.png'
 
 const Services = () => {
     return (
-        <div className="grid col-span-1 md:grid-cols-2 rounded-3xl mt-12 md:mt-16 lg:mt-40 p-5 md:p-10 container gap-6 md:gap-8 lg:gap-14 bg-[#FFFFF5]">
+        <div className="grid col-span-1 md:grid-cols-2 rounded-3xl mt-12 md:mt-16 lg:mt-40 p-5 md:p-10 container gap-6 md:gap-8 lg:gap-14 bg-whiteSecond">
             <div>
                 <ButtonLink title='Service' />
                 <div className="space-y-4 pt-5 pb-6 lg:pb-14">
