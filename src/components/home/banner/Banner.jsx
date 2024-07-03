@@ -9,11 +9,11 @@ const Banner = () => {
                 <img className='w-1/2 object-cover' src={rightShape} alt="" />
             </div> */}
             <div className='container relative rounded-2xl md:rounded-[48px] overflow-hidden '>
-                
+
                 <img className='w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover' src={banner} alt="bannerImg" />
                 <div
-                className="absolute inset-0 bg-gradient-to-b from-[#00C19D] to-[#020043] opacity-40"
-            ></div>
+                    className="absolute inset-0 bg-gradient-to-b from-[#00C19D] to-[#020043] opacity-40"
+                ></div>
             </div>
         </div>
     );
