@@ -2,6 +2,7 @@
 import helpImg from '../../../assets/helpImg.png'
 import ButtonLink from "../../shared/buttons/ButtonLink";
 import ActionButton from "../../shared/buttons/ActionButton";
+import SectionTitle from '../../shared/title/SectionTitle';
 
 const Help = () => {
     return (
@@ -16,7 +17,7 @@ const Help = () => {
             <div className="md:w-2/5 order-1">
                <ButtonLink title='Who we are'/>
                 <div className="space-y-4 pt-5 pb-6 lg:pb-14">
-                    <h2 className="font-semibold md:pr-32 text-textColorPrimary text-4xl">We Help To Get Soultions</h2>
+                    <SectionTitle title='We Help To Get Soultions'/>
                     <p className="text-textColorPrimary/70 ">We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.</p>
                 </div>
                 <ActionButton title='Learn more'/>
