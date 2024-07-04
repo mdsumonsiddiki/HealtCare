@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const TestimonialCard = ({item}) => {
     return (
-        <div className='bg-whiteSecond rounded-2xl p-5'>
+        <div className='bg-whiteSecond rounded-2xl p-5 shadow-xl'>
             <h2 className="font-semibold  text-xl text-textColorPrimary">{item.title}</h2>
             <p className='text-textColorPrimary/70 my-4'>{item.content}</p>
             <div className='flex items-center gap-3'>
