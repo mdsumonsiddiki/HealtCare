@@ -13,8 +13,8 @@ const About = () => {
             <div className="">
                 <AboutSideCard heading='90%' content='Patient satisfaction rate, reflecting our commitment.' item={side1} />
             </div>
-            <div className="text-center flex flex-col gap-4 justify-between lg:col-span-3">
-                <h1 className="font-semibold text-5xl text-textColorPrimary w-full lg::w-2/3 mx-auto">Comprehensive Care for Every Patient</h1>
+            <div className="text-center flex flex-col gap-4 justify-between col-span-1 lg:col-span-3">
+                <h1 className="font-semibold text-2xl md:text-5xl text-textColorPrimary w-full lg:w-2/3 mx-auto">Comprehensive Care for Every Patient</h1>
                 <div className="flex items-end gap-5 justify-center text-left flex-wrap lg:flex-nowrap">
                     <div className="bg-whiteSecond shadow-xl p-5 rounded-3xl w-64">
                         <h2 className="font-semibold text-textColorPrimary text-4xl">500+</h2>

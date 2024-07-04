@@ -83,7 +83,7 @@ const Testimonial = () => {
             disableOnInteraction: false,
           }}
           breakpoints={{
-            320: {
+            220: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
