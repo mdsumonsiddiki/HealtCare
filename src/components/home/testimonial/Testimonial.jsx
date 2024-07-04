@@ -25,7 +25,7 @@ const reviwe = [
   },
   {
     title: 'Life-Saving Care, Life-Changing Experience',
-    content: 'My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.',
+    content: 'My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, advanced treatments they provided saved my life.',
     images: client2,
     name: 'Michael R',
     proffesion: 'Business Executive'
@@ -39,7 +39,7 @@ const reviwe = [
   },
   {
     title: 'Life-Saving Care, Life-Changing Experience',
-    content: 'My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.',
+    content: 'My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, advanced treatments they provided saved my life.',
     images: client2,
     name: 'Michael R',
     proffesion: 'Business Executive'
@@ -64,7 +64,7 @@ const reviwe = [
 
 const Testimonial = () => {
   return (
-    <div className="container mt-10 md:mt-16 lg:mt-40 px-3 md:px-0">
+    <div className="container mt-10 md:mt-16 lg:mt-20 px-3 md:px-0">
       <div className="space-y-5">
         <ButtonLink title='Testimonial' />
         <SectionTitle title='What they say about us' />

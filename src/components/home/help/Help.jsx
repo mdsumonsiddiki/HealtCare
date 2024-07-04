@@ -6,7 +6,7 @@ import SectionTitle from '../../shared/title/SectionTitle';
 
 const Help = () => {
     return (
-        <div className="container mt-14 md:flex justify-between space-y-6 md:space-y-0 md:gap-8 lg:gap-40 px-3 md:px-0">
+        <div className="container mt-10 md:mt-16 lg:mt-40 md:flex justify-between space-y-6 md:space-y-0 md:gap-8 lg:gap-40 px-3 md:px-0">
             <div className="relative md:w-3/5 order-2">
                 <img className="rounded-[32px] w-full ms-auto object-cover " src={helpImg} alt="img" />
                 <div className="bg-textColorPrimary/80 py-12 px-6 rounded-3xl space-y-5 -mt-6 lg:absolute -bottom-10 -left-24 lg:w-1/2">

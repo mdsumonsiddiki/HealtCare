@@ -28,7 +28,7 @@ const accLists = [
 
 const Faq = () => {
     return (
-        <div className="container mt-10 md:mt-16 lg:mt-40 px-3 md:px-0">
+        <div className="container mt-10 md:mt-16 lg:mt-20 px-3 md:px-0">
             <div className="space-y-3">
                 <ButtonLink title='Faq' />
                 <SectionTitle title='Frequntly Asked Question' />
